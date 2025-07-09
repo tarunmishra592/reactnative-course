@@ -1,0 +1,61 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+
+# Optional npm cache
+.npm/
+
+# Editor, OS files
+.DS_Store
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache and editor files
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+# Bundler/cache/output directories
+.cache/
+.parcel-cache/
+.serverless/
+.dynamodb/
+.cache/
+.tern-port
+
+# Yarn PnP and integrity
+.yarn-integrity
+.pnp.*
+.yarn/
+
+# Misc
+*.tgz
